@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Google.ca</ShortName>
+  <Description>Google Canada</Description>
+  <InputEncoding>inputEncoding</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">http://www.google.com/s2/favicons?domain=www.google.ca</Image>
+  <Url type="text/html" method="GET" template="http://www.google.com/search">
+    <Param name="q" value="{searchTerms}"/>
+    <Param name="hl" value="ca"/>
+  </Url>
+  <moz:SearchForm>http://www.google.com/search</moz:SearchForm>
+</OpenSearchDescription>
